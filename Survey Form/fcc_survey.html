@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="fcc_survey.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library feedback form</title>
+</head>
+<body>
+  <header>
+      <h1 id = "title">Library feedback form</h1>
+  </header>
+  <div id="survey-div">
+    <p id = "description">In order to improve the level of user satisfaction, your feedback is the very important. Please fill the next form and submit it. It only takes a few minutes. </p>
+    <form id="survey-form">
+      
+      <div class = "rowTab">
+       
+        <div class = "labels">
+         <label id = "name-label" for = "name">
+          * Full Name:
+         </label>
+        </div>
+        <div class = "rightTab"><input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required></div>
+      </div>
+
+      <div class = "rowTab">
+       
+        <div class = "labels">
+         <label id = "email-label" for = "email">
+          * Email:
+         </label>
+        </div>
+        <div class = "rightTab"><input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required></div>
+      </div>
+
+      <div class = "rowTab">
+       
+        <div class = "labels">
+         <label id = "dob-label" for = "age">
+          * Date of birth:
+         </label>
+        </div>
+        <div class = "rightTab"><input autofocus type="date" name="age" id="age" class="input-field" placeholder="Enter your age" required></div>
+      </div>
+
+      <div class = "rowTab">
+       
+        <div class = "labels">
+         <label for = "favCategory">
+          * What book category do you usually read?
+         </label>
+        </div>
+        <div class = "rightTab">
+          <select id="favCategory" name = "currentPosition" class="dropdown">
+            <option disabled value>Select an option</option>
+            <option value="Non-fiction">Non-fiction</option>
+            <option value="Biographies">Biographies</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Everybody">Everybody</option>
+            <option value="Everybody non-fiction">Everybody non-fiction</option>
+            <option value="Beginning Chapter">Beginning Chapter</option>
+            <option value="Graphic Novels">Graphic Novels</option>
+            <option value="Young Adult">Young Adult</option>
+            <option value="Reference">Reference</option>
+          </select>
+          </div>
+      </div>
+
+      <div class = "rowTab">
+       
+        <div class = "labels">
+         <label for = "userRating">
+          * How likely is that you would recommend our library to a friend?
+         </label>
+        </div>
+        <div class = "rightTab">
+          <ul style="list-style:none;">
+           
+            <li class = "radio">
+              <input name="radio-buttons" value="1"  type="radio" class="userRatings" required>
+              <label>Definitely</label>
+            </li>
+
+            <li class = "radio">
+              <input name="radio-buttons" value="2"  type="radio" class="userRatings" required>
+              <label>Maybe</label>
+            </li>
+
+            <li class = "radio">
+              <input name="radio-buttons" value="3"  type="radio" class="userRatings" required>
+              <label>Not sure</label>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class = "rowTab">
+       
+        <div class = "labels">
+         <label for = "favThing">
+          * What is your favourite thing about our library?
+         </label>
+        </div>
+        <div class = "rightTab">
+          <select id="age" name = "currentPosition" class="dropdown">
+            <option disabled value>Select an option</option>
+            <option value="Non-fiction">It's quiet</option>
+            <option value="Biographies">Very diverse</option>
+            <option value="Fiction">Best coffee in town</option>
+            <option value="Everybody">Fastest internet</option>
+            <option value="Everybody non-fiction">Great for studying</option>
+            <option value="Beginning Chapter">Nicest staff</option>
+            <option value="Beginning Chapter">Open 24/7</option>
+          </select>
+          </div>
+      </div>
+
+      <div class = "rowTab">
+        <div class = "labels">
+       
+          <label for="improvements">Things we could improve on<br>(Multiple answers):</label>
+        
+        </div>
+        <div class = "rightTab">
+
+          <ul id="improvements" style="list-style: none;">
+            
+            <li class="checkbox">
+              <label><input name="improvements" value="1" type="checkbox" class="userRatings">Better group study rooms</label>
+            </li>
+
+            <li class="checkbox">
+              <label><input name="improvements" value="2" type="checkbox" class="userRatings">Quicker book renting processes</label>
+            </li>
+
+            <li class="checkbox">
+              <label><input name="improvements" value="3" type="checkbox" class="userRatings">The library card process could be improved</label>
+            </li>
+
+            <li class="checkbox">
+              <label><input name="improvements" value="4" type="checkbox" class="userRatings">More bathrooms</label>
+            </li>
+
+            <li class="checkbox">
+              <label><input name="improvements" value="5" type="checkbox" class="userRatings">Better wireless coverage</label>
+            </li>
+
+            <li class="checkbox">
+              <label><input name="improvements" value="6" type="checkbox" class="userRatings">More book opening events geared towards young people</label>
+            </li>
+
+        </div>
+      </div>
+
+      <div class = "labels">
+        <label for = "suggestions">
+         * Did we miss anything? Input your suggestions:
+        </label>
+       </div>
+       <div class = "rightTab">
+         <textarea name="suggestions" id="suggestions" class = "input-field" style="height:50px;resize:vertical;" placeholder="Enter your suggestions here..."></textarea>
+       </div>
+       <button id="submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  
+  <footer id = "footer">
+    <p>Written and coded by Marian Dan</p>
+  </footer>
+
+</body>
+</html>

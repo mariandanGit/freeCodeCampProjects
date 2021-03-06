@@ -1,0 +1,166 @@
+body {
+    height: 100%;
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+#header{
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    z-index: 1;
+}
+#navbar{
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 55px;
+    left: 0;
+    height: 100%;
+    width: 310px;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+#navbar ul {
+    height: 100%;
+    padding: 0;
+    margin-bottom: 56px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+#navbar li{
+    list-style: none;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+    border: 1px solid;
+    cursor: pointer;
+}
+#navbar a{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+}
+#over-view-id{
+    background:url(https://wallpapercave.com/wp/wp3185316.jpg);
+    background-size: cover;  
+}
+#sun-id{
+    background:url(https://wallpapercave.com/wp/bfYikMB.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position-y: -10px;
+}
+#inner-planets-id{
+    background:url(https://cdn.wallpapersafari.com/54/57/AXcRkt.jpg);
+    background-size: cover;
+    background-position-y: -60px;
+}
+#mercury-id{
+    background:url(https://wallpaperaccess.com/full/543230.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+}
+#venus-id{
+    background:url(https://wallpaperaccess.com/full/116938.jpg);
+    background-size: cover;
+}
+#earth-id{
+    background:url(https://wallpaperaccess.com/full/19602.jpg);
+    background-size: cover;
+}
+#mars-id{
+    background:url(https://wallpapercave.com/wp/wp2305575.jpg);
+    background-size: cover;
+    background-position-y: 15px;
+}
+#asteroids-id{
+    background:url(https://wallpaperaccess.com/full/1325363.jpg);
+    background-size: cover;
+}
+#outer-planets-id{
+    background:url(https://wallpapercave.com/wp/wp4222559.jpg);
+    background-size: cover;
+}
+#jupiter-id{
+    background:url(https://wallpaperaccess.com/full/223952.jpg);
+    background-size: cover;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+}
+#saturn-id{
+    background:url(https://wallpaperaccess.com/full/160366.jpg);
+    background-size: cover;
+    background-position-y: -15px;
+    background-repeat: no-repeat;
+}
+#uranus-id{
+    background:url(https://hdwallpaperim.com/wp-content/uploads/2017/08/22/331808-Uranus-space-minimalism.jpg);
+    background-size: cover;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+}
+#neptune-id{
+    background:url(https://wallpapercave.com/wp/wp1898949.jpg);
+    background-size: cover;
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+}
+#kuiper-id{
+    background:url(https://wallpapercave.com/wp/wp4221764.jpg);
+    background-size: cover;
+    background-position-y: -20px;
+}
+#pluto-id{
+    background:url(https://external-preview.redd.it/4r6sLMzH1nod4RBaGFda_DBa6vuYsh04GVg0vmcWcH0.jpg?width=960&crop=smart&auto=webp&s=695d87ccfb1806b473bca8c4b255a8ba1ba3ec40);
+    background-size: cover;
+    background-position-y: 15px;
+}
+#farthest-regions-id{
+    background:url(https://carnegiescience.edu/sites/carnegiescience.edu/files/2018%20VG18%20artist%20concept_CROPPED_0.jpg);
+    background-size: cover;
+}
+#boundaries-id{
+    background:url(https://wallpaperaccess.com/full/19602.jpg);
+    background-size: cover;
+}
+#main-doc{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top:70px;
+    height: 100%;
+    padding: 10px;
+    margin-left: 320px;
+}
+#first-img{
+    width: 100%;
+    height: 50%;
+}
+#overview-img{
+    width: 100%;
+    height: 50%;
+}
+#sun-img{
+    width: 100%;
+    height: 50%;
+}
+#inn-planets-image{
+    width: 100%;
+    height: 50%;
+}

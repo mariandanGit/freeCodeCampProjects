@@ -1,0 +1,149 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="product_page.css">
+    <link rel="stylesheet" href="product_page.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+
+    <header id="header">
+
+        <div id="logotext">
+            <img id="header-img"
+                src="https://previews.dropbox.com/p/thumb/ABEUeuROY3Y1XzIH-6RHiN3vjfMEL1x35f5ljGzfnDTumPSVedhS2l3lXO_ViW69NbsLhAZLAINzBdxtjm0hfaSdSSfJuzRQ0xGe3FhOW3ALnwU9RDIb2yLFW-EU07oroZhzkgyh3RM7mf0CXOaOTbYDHjHC7tPZju0YVCXckvpokDX5epZqhwrQ17_OphaKXIomwozAXzbzh4rQNKxwHv9G2aZcVK4ePXWWC7gH8VNWOKNXdBbAGjIYfWW2o0VdcwOx405e04bbeDc-PycGTqJ44gSW7dWzDKYrfEV2AhnWi_wNA0ZnsVVK4YfJ5bjCxf1-RamveH55v9S47S_4SFdYof7cFojGgH53LaZtofZ0KQ/p.png?size=1280x960&size_mode=3">
+            <h1 id="title">Freedom Camping</h1>
+        </div>
+
+        <nav id="nav-bar">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#about">About us</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+
+        <div class="dropdown">
+            <img id="dropimg"
+                src="https://cosycorner.co.nz/wp-content/uploads/revslider/slider-1/white-down-arrow-png-2.png">
+            <div class="dropdown-content">
+                <a href="#home">Home</a>
+                <a href="#about">About us</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="content">
+
+        <div id="home">
+            <div id="hometitle">
+                <h2>Freedom Camping</h2>
+                <p>Explore the wild</p>
+            </div>
+        </div>
+
+        <div id="about">
+
+            <div id="aboutimgdiv">
+                <iframe id = "video" width="520" height="410" src="https://www.youtube.com/embed/g4udShhCqOA"></iframe>
+            </div>
+
+            <div id="aboutusdiv">
+                <h3 id="about-title">About us</h3>
+                <p id="abouttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere, sapien eget
+                    venenatis efficitur, nulla dolor semper odio, quis tempus diam nulla et tellus. In rhoncus sem
+                    efficitur sapien luctus, et cursus leo consectetur. Nunc non neque eu magna tincidunt facilisis.
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi facilisis bibendum eros, sed
+                    tristique ex tincidunt eu. Sed justo orci, euismod eu viverra eget, ornare a nulla. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Donec mauris ligula, condimentum ut blandit at,
+                    maximus vitae turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos. Duis et sem ligula. Pellentesque sed lectus ultrices, commodo magna sed, auctor
+                    neque. Mauris laoreet ante metus, in ultricies lorem lacinia non. Donec ac consectetur urna.
+                    Vestibulum elementum libero ut diam faucibus tempus.</p>
+            </div>
+
+        </div>
+
+        <div id="services">
+
+            <div class="entry">
+              
+                <img id="entrygear"
+                    src="https://844502.smushcdn.com/1708783/wp-content/uploads/2020/01/How-to-Clean-Your-Camping-Gear-950x500.jpg?lossy=0&strip=1&webp=1">
+              
+                <div class = "overlay">
+                    <div class = "equipment-info">
+                        <h3>Entry Level Gear</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="medium">
+                <img id="mediumgear"
+                    src="https://tinboxtraveller.co.uk/wp-content/uploads/2019/09/Camping-equipment-1140x660.jpeg">
+                    <div class = "overlay">
+                        <div class = "equipment-info">
+                             <h3>Intermediate Level Gear</h3>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="pro">
+                <img id="progear"
+                    src="https://callofcalifornia.com/wp-content/uploads/2018/04/All-the-camping-gear-you-need-when-nature-begins-to-call.png">
+                    <div class = "overlay">
+                        <div class = "equipment-info">
+                            <h3>Pro Level Gear</h3>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+
+        <div id="contact">
+           
+            <div class = "survey-title-div">
+                <h4 id="survey-title">Wanna' join the adventure?</h4>
+            </div>
+         
+                <form id = "form">
+                    <label id="name-label" for="name">Name</label>
+                    <input autofocus type="text" name="name" id="name-input" class="inputs" placeholder="Enter your name" required>
+
+        
+                    <label id="email-label" for="email">Email</label>
+                    <input autofocus type="text" name="email" id="email-input" class="inputs" placeholder="Enter your email" required>
+
+
+                    <label id="message-label" for="message">Message</label>
+                    <textarea name="message" id="message-input" class="inputs" placeholder="Enter your message" style="resize: none;" ></textarea>
+
+                    <div class = "button-div">
+                        <button id="submit-button">Submit</button>
+                    </div>
+                </form>
+              
+            <div class = "contact-image-div">
+                <img id = "campfire" src="https://media1.giphy.com/media/f4OqmUnZHAt1D0Lk5r/source.gif">
+            </div>
+        </div>
+
+    </section>
+
+    <footer class = "footer">
+        <p>Created by Marian</p>
+    </footer>
+
+</body>
+
+</html>
